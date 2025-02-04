@@ -13,7 +13,7 @@ a {
 
 /* Container */
 .container {
-    max-width: 800px;
+    max-width: 550px;
     margin: 0 auto;
     padding: 20px;
     background-color: #111;
@@ -57,24 +57,39 @@ section h2 a:hover {
 
 section ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 section ul li {
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1e;
+    border-radius: 8px;
+}
+
+section ul h3 {
+    flex-grow: 1;
+    padding: 10px;
 }
 
 section ul li a {
     display: block;
     padding: 10px;
-    background-color: #1c1c1e;
-    border-radius: 8px;
     color: #ffffffbb;
     transition: background-color 0.2s ease;
+    border-radius: 8px;
 }
 
 section ul li a:hover {
     background-color: #2c2c2e;
     color: #ffffff;
+}
+
+
+.profile-links {
+    flex-basis: 30%;
 }
 
 /* Footer */
