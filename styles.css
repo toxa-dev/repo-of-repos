@@ -108,3 +108,41 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.btn-layout-change {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0077cc;
+    border: 0;
+    font-size: 1.2em;
+}
+
+.btn-layout-change:hover {
+    background-color: #005fa3;
+    /* Darker shade */
+    transform: scale(1.05);
+    /* Slightly larger */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+}
+
+.layout-vertical {}
+
+.layout-vertical li {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.layout-vertical li h3 {
+    padding-bottom: 5px;
+}
+
+.layout-vertical li div {
+    width: 100%;
+}
+
+.layout-vertical div a {
+    padding-left: 15px;
+}
